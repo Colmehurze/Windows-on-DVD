@@ -27,6 +27,7 @@ Required Tools/Files:
 
 Installation guide:
 https://github.com/Colmehurze/Windows-on-DVD/blob/main/part1.md
+</details>
 
 If you would like to ask me questions or provide your ideas:
 
