@@ -24,7 +24,8 @@ But as you know, windows PE uses ramdisk to store data and all data gets wiped a
 <summary><strong>How to install? </strong></summary>
 
 1. Booting the live os:
-   https://github.com/colmehurze/
+   https://github.com/Colmehurze/Windows-on-DVD/blob/main/part1.md
+
 2. Installing windows:
 
 If you would like to ask me questions or provide your ideas:
