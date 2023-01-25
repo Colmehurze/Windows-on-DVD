@@ -36,12 +36,14 @@ Follow these steps one by one:
     (Don't forget to replace sda1 with your lock hard disk path.) 
     
 11. Now you can reboot your system. Boot from DVD and run the live os. Then open terminal and enter the following commands to restore your windows:
+
     sudo apt update 
     sudo apt install wget
     wget 
     bash restore.sh
 
 12. When you are done using windows and have shut down qemu, type this command on your terminal and ONLY THEN TURN OFF YOUR PC :
+
     bash save.sh
     
  
