@@ -38,8 +38,11 @@ Follow these steps one by one:
 11. Now you can reboot your system. Boot from DVD and run the live os. Then open terminal and enter the following commands to restore your windows:
 
     sudo apt update 
+
     sudo apt install wget
+
     sudo apt install qemu-system-x86_64
+
     qemu-system-x86_64 -hda Windows.qcow2 -m 3G 
     
 
