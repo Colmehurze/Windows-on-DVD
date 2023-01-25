@@ -33,17 +33,20 @@ Follow these steps one by one:
 
     cp /root/Windows.qcow2 /dev/block/sda1/
 
-    (Don't forget to replace sda1 with your lock hard disk path.) 
+    (Don't forget to replace sda1 with your local hard disk path.) 
     
 11. Now you can reboot your system. Boot from DVD and run the live os. Then open terminal and enter the following commands to restore your windows:
 
     sudo apt update 
     sudo apt install wget
-    wget 
-    bash restore.sh
+    sudo apt install qemu-system-x86_64
+    qemu-system-x86_64 -hda Windows.qcow2 -m 3G 
+    
 
 12. When you are done using windows and have shut down qemu, type this command on your terminal and ONLY THEN TURN OFF YOUR PC :
 
-    bash save.sh
+    cp /root/Windows.qcow2 /dev/block/sda1/
+
+(Don't forget to replace sda1 with your local hard disk path.) 
     
  
