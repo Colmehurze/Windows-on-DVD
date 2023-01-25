@@ -1,6 +1,4 @@
-Part 1 - Booting the live os and setting up software. 
-
-Follow these steps to complete part 1 :
+Follow these steps one by one:
 
 1. Download the Debian live iso from the main page.
 
@@ -30,3 +28,20 @@ Follow these steps to complete part 1 :
    qemu-system-x86_64 -hda Windows.qcow2 -cdrom <enter path to windows iso> -m 3G
 
 9. You should see a window opened with windows installer running. Install windows like you normally do on a pc. 
+
+10. After you are done installing, shut down windows and close the qemu window. Then enter these commands one by one in a terminal:
+
+    cp /root/Windows.qcow2 /dev/block/sda1/
+
+    (Don't forget to replace sda1 with your lock hard disk path.) 
+    
+11. Now you can reboot your system. Boot from DVD and run the live os. Then open terminal and enter the following commands to restore your windows:
+    sudo apt update 
+    sudo apt install wget
+    wget 
+    bash restore.sh
+
+12. When you are done using windows and have shut down qemu, type this command on your terminal and ONLY THEN TURN OFF YOUR PC :
+    bash save.sh
+    
+ 
