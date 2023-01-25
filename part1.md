@@ -15,7 +15,10 @@ Follow these steps to complete part 1 :
 6. Enter the following commands one by one (You should be connected to the internet) :
 
    sudo apt update
+
+
    sudo apt install qemu-system-x86_64
+
    sudo apt install qemu-img
 
 7. Keep your windows iso ready. You can copy it to the DVD drive after burning the linux iso or load it from your hard drive.
@@ -23,6 +26,7 @@ Follow these steps to complete part 1 :
 8. Enter the following commands on the terminal one by one:
 
    qemu-img create -f qcow2 Windows.qcow2 20G
+
    qemu-system-x86_64 -hda Windows.qcow2 -cdrom <enter path to windows iso> -m 3G
 
 9. You should see a window opened with windows installer running. Install windows like you normally do on a pc. 
