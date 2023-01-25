@@ -30,7 +30,7 @@ But as you know, windows PE uses ramdisk to store data and all data gets wiped a
 If you would like to ask me questions or provide your ideas:
 
 My gmail: colmehurze@gmail.com
-Contact me on telegram: t.me/colmehurze
+Contact me on telegram: https://t.me/colmehurze
 
 Thanos for viewing, See you in my next project! 
 
