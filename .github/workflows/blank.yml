@@ -32,7 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          sudo apt update 
-          sudo apt install qemu-img
+          sudo apt update
+
           sudo apt install qemu-system-x86_64
           qemu-img create -f qcow2 win.qcow2 5G
