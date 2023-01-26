@@ -36,6 +36,6 @@ Contact me on telegram: https://t.me/colmehurze
 
 If you can't open telegram link, open telegram app and search colmehurze. 
 
-Thanos for viewing, See you in my next project! 
+Thanks for viewing, See you in my next project! 
 
 
